@@ -23,7 +23,7 @@ class ScreamingFrogSpider(object):
     Make use of Screaming Frog (SF) (https://www.screamingfrog.co.uk/) via the subprocess module.
     It calls the Screaming Frog CLI, default url is based off of the default set up.
     param:seospiderconfig_absolute_pathname: str pathname to binary file containing all config set up using SF UI.
-    mandatory parameter by design, so you rememeber to add the correct configuration every time
+    mandatory parameter by design, so you remember to add the correct configuration every time
     param:output_folder:str where all output should be saved to.
     param:export_tabs:list of strings all exports under export, matching the UI. default extract Internal:All Name matches UI set up
     param:file_full_path:str path to list of urls to crawl if list mode.
